@@ -1,0 +1,230 @@
+@media(max-width: 767px)
+{
+	html
+	{
+		overflow-x: hidden !important;
+		overflow-y: scroll;
+	}
+	body
+	{
+		overflow-x: hidden !important;
+		overflow-y: scroll;
+	}
+	.SectionLadies
+	{
+		    grid-template-columns: auto;
+	}
+	.bottom_Section
+	{
+		left: 35px;
+	}
+	.img_ladies img
+	{
+	width: 90%;
+	    margin: auto;
+	        height: 300px;
+    display: block;	
+	}
+	.innerSection_2 img {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.InnerSlider {
+    display: none;
+}
+.headerInner2
+{
+  display: none;
+}
+div#carousel_Saree_collection img
+{
+	    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+.sectionLadies2
+{
+	grid-template-columns: auto;
+}
+.innerbgSection
+{
+	    padding-left: 2rem;
+    padding-right: 2rem;
+    top: 3rem;
+}
+.bgImageSection
+{
+	    min-height: 250px;
+}
+.bgImageSection_Second
+{
+	min-height: 200px;
+	    background-size: cover;
+}
+div#carousel_Saree .item
+{
+	margin: 10px;
+}
+.SectionCollection
+{
+	display: block;
+}
+.innerCollection1
+{
+	width: 100%;
+	padding-left: 20px;
+}
+.innerCollection2
+{
+	width: 100%;
+}
+.flex {
+    display: block;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.SampadaHover
+{
+	display: block;
+}
+.SampadaHover img
+{
+	width: 97%;
+}
+.w-100
+{
+	width: 100%;
+}
+.header1 {
+  /*position: fixed;*/
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+  color: #252a32;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+.header1 .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0;
+}
+.header1 .navbar .burger {
+  position: fixed;
+  top: 1.75rem;
+  left: 2rem;
+  z-index: 9;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  transition: left 0.5s cubic-bezier(0.6, 0.05, 0.28, 0.91);
+}
+.header1 .navbar .burger-close {
+  display: none;
+}
+.header1 .navbar .burger.active {
+  left: 14rem;
+}
+.header1 .navbar .burger.active .burger-open {
+  display: none;
+}
+.header1 .navbar .burger.active .burger-close {
+  display: block;
+}
+.header1 .navbar .menu {
+      position: fixed;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 8;
+    opacity: 0;
+    top: 0;
+    left: -17rem;
+    width: 17rem;
+    height: 100%;
+    color: #252a32;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 3px rgb(0 0 0 / 24%);
+    transition: all 0.5s cubic-bezier(0.6, 0.05, 0.28, 0.91);
+    padding-top: 5rem;
+}
+.header1 .navbar .menu-item {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+.header1 .navbar .menu-item a {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: inherit;
+    color: #252a32;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header1 .navbar .menu-item:hover {
+  padding: 1rem 3rem;
+  background: #148cb8;
+}
+.header1 .navbar .menu-item:hover a {
+  color: #ffffff;
+}
+.header1 .navbar .menu.active {
+  left: 0;
+  opacity: 1;
+}
+
+.main .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+header.header1 svg {
+    margin-top: 56px;
+}
+.header select {
+    display: none;
+}
+
+header.header1 svg {
+    margin-top: 56px;
+    margin-left: -15px;
+}
+.menuitem
+{
+	display: none;
+}
+span.burger-close svg {
+    margin-top: 0;
+}
+}
+
+
+
+@media(min-width: 768px) and (max-width:1024px)
+{
+	.SectionLadies
+	{
+		    grid-template-columns: auto auto;
+	}
+}
+
+@media(min-width: 768px)
+{
+	.header1
+	{
+		display: none;
+	}
+}
