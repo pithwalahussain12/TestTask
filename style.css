@@ -106,7 +106,7 @@ a
 }
 
 .bgImageSection {
-    background-image: url(assets/images/banner.jpg);
+    background-image: url(assets/images/Banner.jpg);
     color: #fff;
     text-align: center;
     min-height: 500px;
@@ -130,7 +130,7 @@ section#img_custom_edit img {
 }
 
 .bgImageSection_Second {
-    background-image: url(assets/images/video.jpg);
+    background-image: url(assets/images/Video.jpg);
     color: #fff;
     text-align: center;
     min-height: 610px;
